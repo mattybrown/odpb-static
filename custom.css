@@ -1,3 +1,8 @@
 .margin-20{
   margin-top: 20px;
 }
+.brand-logo img{
+  width: 140px;
+  padding:10px;
+  background: #FFF;
+}

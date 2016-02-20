@@ -11,33 +11,33 @@
 
   <script>
     $(document).ready(function(){
+      $('.slider').slider({indicators: false, interval:12000});
       $(".button-collapse").sideNav();
-      $(".parallax").parallax();
-    })
+    });
   </script>
 
 </head>
 <body>
 
   <header>
-    <nav class="blue">
+    <nav class="white">
       <div class="nav-wrapper container">
-        <a href="#" class="brand-logo">ODPB</a>
+        <a href="#" class="brand-logo"><img src="images/LogoOPBL-small.jpg" /></a>
 
         <ul class="right hide-on-med-and-down">
-          <li><a href="tel:035738880"><i class="fa fa-phone"></i> Call now (03)573 8880</a></li>
-          <li><a href="#"><i class="fa fa-map-signs"></i> Lagoon Road, Picton</a></li>
-          <li><a href="#"><i class="fa fa-envelope-o"></i> james@opbl.co.nz</a></li>
+          <li><a class="blue-text text-darken-4" href="tel:035738880"><i class="fa fa-phone"></i> Call now (03)573 8880</a></li>
+          <li><a class="blue-text text-darken-4" href="#"><i class="fa fa-map-signs"></i> Lagoon Road, Picton</a></li>
+          <li><a class="blue-text text-darken-4" href="#"><i class="fa fa-envelope-o"></i> james@opbl.co.nz</a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav" style="left: -250px;">
-          <li><a href="tel:035738880"<i class="fa fa-phone"></i> Call now (03)573 8880</a></li>
-          <li><a href="#"><i class="fa fa-map-signs"></i> Lagoon Road, Picton</a></li>
-          <li><a href="#"><i class="fa fa-envelope-o"></i> james@opbl.co.nz</a></li>
+          <li><a class="blue-text text-darken-4" href="tel:035738880"><i class="fa fa-phone"></i> Call now (03)573 8880</a></li>
+          <li><a class="blue-text text-darken-4" href="#"><i class="fa fa-map-signs"></i> Lagoon Road, Picton</a></li>
+          <li><a class="blue-text text-darken-4" href="#"><i class="fa fa-envelope-o"></i> james@opbl.co.nz</a></li>
         </ul>
 
         <a class="button-collapse" data-activates="nav-mobile" href="#">
-          <i class="fa fa-bars"></i>
+          <i class="fa fa-bars blue-text text-darken-4"></i>
         </a>
 
       </div>
@@ -46,36 +46,60 @@
 
   <main>
 
-    <div class="parallax-container valign-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m6">
-            <div class="card white valign">
-              <div class="card-content">
-                <span class="card-title">Barging services in the Marlborough and Pelorus Sounds</span>
-                <p>Bacon ipsum dolor amet capicola rump dolore, tail nostrud eiusmod shank kielbasa meatball. Alcatra ea boudin cow, nostrud beef ribs duis excepteur reprehenderit mollit tri-tip bacon cupim meatloaf. Shank flank excepteur porchetta kielbasa, landjaeger pork chop turducken ham aliqua quis. Aliqua do ad fatback, commodo tenderloin id pariatur beef ribs tail culpa frankfurter spare ribs. Andouille magna ribeye officia id nostrud sirloin non laborum pastrami spare ribs boudin occaecat meatloaf.</p>
-              </div>
-            </div>
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="images/IMG_5025.JPG">
+          <div class="caption left-align">
+            <h3>OPBL</h3>
+            <h5>Text to go here</h5>
           </div>
-        </div>
-      </div>
-      <div class="parallax">
-        <img src="SDC10115.JPG" />
-      </div>
+        </li>
+        <li>
+          <img src="images/IMG_5322.JPG">
+          <div class="caption left-align">
+            <h3>OPBL</h3>
+            <h5>Text to go here</h5>
+          </div>
+        </li>
+        <li>
+          <img src="images/IMG_5362.JPG">
+          <div class="caption right-align">
+            <h3>OPBL</h3>
+            <h5>Text to go here</h5>
+          </div>
+        </li>
+      </ul>
     </div>
 
     <div class="row">
       <div class="col s12 m4">
-        <h1 class="center-align blue-text"><i class="fa fa-anchor"></i></h1>
-        <p>Ham hock consectetur officia minim, pork chop voluptate tenderloin in rump ullamco nulla capicola eiusmod eu. Dolore culpa tail pork belly qui pork strip steak ullamco ribeye laborum shank. Ullamco aliquip kielbasa, minim spare ribs jerky ad kevin. Sed ipsum jowl flank.</p>
+        <h1 class="center-align blue-text text-darken-4"><i class="fa fa-anchor"></i></h1>
+        <h5 class="center-align blue-text text-darken-4">Why us?</h5>
+        <p>
+          O'Donnell Park Barging was set up in 1996 by the O'Donnell and Parkes families of Marlborough. We have been established within Marlborough for the past 19 years and we hold Marlborough close in our hearts. Our founding families roots run deep in Marlborough and have done so for many generations.
+          <br />
+          We have combined skipper experience of over 60 years, and staff, vessels, and equipment capable of undertaking most if not all on water tasks necessary.
+        </p>
+        <a class="btn waves-effect waves-light blue darken-4">Meet the team</a>
       </div>
       <div class="col s12 m4">
-        <h1 class="center-align blue-text"><i class="fa fa-flag"></i></h1>
-        <p>Id officia ham hock nisi dolore culpa veniam consectetur. Rump esse pork chop turkey sed pork belly et nulla ribeye. Kielbasa occaecat do non turducken aute pig minim pancetta dolore. Esse sint et minim.</p>
+        <h1 class="center-align blue-text text-darken-4"><i class="fa fa-flag"></i></h1>
+        <h5 class="center-align blue-text text-darken-4">Our services</h5>
+        <p>
+          We are in the business of on water logistics. Being able to transport a customer's product to a location, or provide a customer a specific service in a safe, timely and cost effective manner. We offer a wide range of services, from crane work to livestock transportation.
+          <br />
+          We want to make life easy for our customers no job is too big or too small.
+        </p>
+        <a class="btn waves-effect waves-light blue darken-4">View our services</a>
       </div>
       <div class="col s12 m4">
-        <h1 class="center-align blue-text"><i class="fa fa-life-ring"></i></h1>
-        <p>Officia esse prosciutto, shank eiusmod in occaecat jowl kielbasa landjaeger dolor. Laboris eu meatloaf frankfurter pastrami. Irure tenderloin ham pork belly, sed pork minim flank elit est tri-tip short ribs.</p>
+        <h1 class="center-align blue-text text-darken-4"><i class="fa fa-life-ring"></i></h1>
+        <h5 class="center-align blue-text text-darken-4">Our equipment</h5>
+        <p>
+          Our vessel fleet currently consists of two motorised vessels, the MV Lana and the MV Ngapuhi and Onewaka our dumb-barge. Our vessels are well equipped and our staff knowledgeable in all areas where we operate. Delivery and collection, mooring installation and vehicle transportation are just the tip of the iceberg regarding our capabilites.
+        </p>
+        <a class="btn waves-effect waves-light blue darken-4">See the fleet</a>
       </div>
     </div>
   </main>
