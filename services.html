@@ -8,7 +8,11 @@
   <link rel="stylesheet" href="custom.css">
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-
+  <script>
+    $(document).ready(function(){
+      $(".button-collapse").sideNav();
+    });
+  </script>
 
 
 </head>
@@ -22,13 +26,17 @@
         <ul class="right hide-on-med-and-down">
           <li><a class="blue-text text-darken-4" href="tel:035738880"><i class="fa fa-phone"></i> Call now (03)573 8880</a></li>
           <li><a class="blue-text text-darken-4" href="#"><i class="fa fa-map-signs"></i> PO Box 16, Picton</a></li>
-          <li><a class="blue-text text-darken-4" href="#"><i class="fa fa-envelope-o"></i> james@opbl.co.nz</a></li>
+          <li><a class="blue-text text-darken-4" href="#"><i class="fa fa-envelope-o"></i> office@opbl.co.nz</a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav" style="left: -250px;">
           <li><a class="blue-text text-darken-4" href="tel:035738880"><i class="fa fa-phone"></i> Call now (03)573 8880</a></li>
           <li><a class="blue-text text-darken-4" href="#"><i class="fa fa-map-signs"></i> PO Box 16, Picton</a></li>
-          <li><a class="blue-text text-darken-4" href="#"><i class="fa fa-envelope-o"></i> james@opbl.co.nz</a></li>
+          <li><a class="blue-text text-darken-4" href="#"><i class="fa fa-envelope-o"></i> office@opbl.co.nz</a></li>
+          <hr />
+          <li class="active"><a class="blue-text text-darken-4" href="services.html"><i class="fa fa-ticket"></i> Services</a></li>
+          <li><a class="blue-text text-darken-4" href="fleet.html"><i class="fa fa-ship"></i> Fleet</a></li>
+          <li><a class="blue-text text-darken-4" href="family.html"><i class="fa fa-users"></i> Family</a></li>
         </ul>
 
         <a class="button-collapse" data-activates="nav-mobile" href="#">
@@ -72,8 +80,9 @@
           </ul>
         </div>
         <div class="col s12 m4">
-          <img class="responsive-img z-depth-1" src="images/TankerUnits.JPG" />
-          <img class="responsive-img z-depth-1" src="images/nets.JPG" />
+          <img class="responsive-img z-depth-1 materialboxed" data-caption="A caption for this photo please?" src="images/TankerUnits.JPG" />
+          <br />
+          <img class="responsive-img z-depth-1 materialboxed" data-caption="A caption for this photo please?" src="images/nets.JPG" />
         </div>
       </div>
     </div>
@@ -85,7 +94,7 @@
       <div class="row">
         <div class="col 16 s12">
           <h5 class="white-text">
-            O'Donnell Parke Barging Limited
+            O'Donnell Park Barging Limited
           </h5>
         </div>
       </div>
@@ -93,7 +102,7 @@
 
     <div class="footer-copyright">
       <div class="container">
-      &copy 2016 O'Donnell Parke Barging Limited
+      &copy 2016 O'Donnell Park Barging Limited
       </div>
     </div>
   </footer>
